@@ -171,6 +171,8 @@ a.text-link:hover, a.text-link:active {
   font-weight: 600;
 }
 .round-button.large, .ghost-button.large {
+  height: 56px;
+  line-height: 56px;
   font-size: 18px;
 }
 
@@ -197,6 +199,9 @@ a.text-link:hover, a.text-link:active {
 .ghost-button {
   line-height: 36px;
   border: 4px solid currentColor;
+}
+.ghost-button.large {
+  line-height: 48px;
 }
 
 .ghost-button.white {
@@ -328,6 +333,15 @@ a.text-link:hover, a.text-link:active {
 .hero .two-up img {
   max-width: 100%;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12), 0px 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.hero h1 + p {
+  font-size: 18px;
+}
+@media screen and (max-width: 425px) {
+  .hero h1 + p {
+    font-size: 14px;
+  }
 }
 
 /* what */
