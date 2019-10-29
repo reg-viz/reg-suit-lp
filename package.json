@@ -3,11 +3,17 @@
   "private": true,
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start",
+    "build": "gulp"
   },
   "author": "Yosuke Kurami",
   "license": "MIT",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "autoprefixer": "^9.7.0",
+    "browser-sync": "^2.26.7",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-postcss": "^8.0.0"
   }
 }
